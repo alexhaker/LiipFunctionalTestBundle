@@ -16,6 +16,7 @@
     beStrictAboutTestSize="true"
     reportUselessTests="true"
     disallowTestOutput="true"
+    processIsolation="true"
 >
 
     <php>
