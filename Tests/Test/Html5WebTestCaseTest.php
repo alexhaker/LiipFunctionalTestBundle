@@ -18,11 +18,6 @@ use Liip\FunctionalTestBundle\Test\Html5WebTestCase;
  */
 class Html5WebTestCaseTest extends Html5WebTestCase
 {
-    public function __construct()
-    {
-        parent::__construct('', array(), '');
-    }
-
     public function testGetValidationServiceAvailable()
     {
         $this->assertInternalType(
