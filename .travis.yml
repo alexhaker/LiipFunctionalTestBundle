@@ -51,4 +51,4 @@ before_script:
 
 # In phpunit.xml.dist, tests annotated with "@group mysql" are excluded,
 # revert this.
-script: php ./vendor/bin/phpunit --exclude-group ""
+script: php ./vendor/bin/phpunit -c . --exclude-group ""
